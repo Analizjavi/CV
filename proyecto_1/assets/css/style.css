@@ -1,0 +1,66 @@
+/* Importa la fuente Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #99638e74;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    background-color: #99638e74;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+header {
+    background-color: #99638e;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile {
+    text-align: left;
+    padding: 20px;
+}
+
+
+/* Estilos generales de la navbar */
+.navbar {
+    background-color: #99638e; /* Color rosado intenso para el fondo de la navbar */
+}
+
+/* Estilos para los enlaces de la navbar */
+.nav-link {
+    color: black !important; /* Letras negras para los enlaces */
+    margin-right: 20px; /* Espaciado entre los enlaces */
+}
+
+/* Estilos para el contenedor de la navbar */
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Estilos para la marca de la navbar */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black !important; /* Letras negras para la marca */
+}
+
+/* Estilos para el fondo del menú colapsable */
+.collapse {
+    background-color: #99638e; /* Fondo rosado claro para las secciones colapsables */
+}
+
+/* Estilos para los elementos de la lista de navegación */
+.navbar-nav {
+    padding-left: 0;
+}
+
+/* Estilos para los elementos individuales de la lista */
+.nav-item {
+    list-style-type: none; /* Elimina los marcadores de lista */
+}
